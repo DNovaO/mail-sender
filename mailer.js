@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(email);
     //es lo que permite que se envien los correos
     Email.send({
-      SecureToken : "7e389c82-48b6-4cc1-a1a4-d71531aa79b0",
+      SecureToken : "78352995-f46b-4e22-b0c2-07f7a62f567d",
       To : email.recipient,
       From : email.sender,
       Subject : email.subject,
