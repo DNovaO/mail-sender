@@ -10,11 +10,6 @@ document.querySelector('#app').innerHTML = `
       <form id="formulario" action="#" method="post">
 
           <div class="mb-4">
-              <label for="sender" class="block text-gray-600 font-semibold mb-2">Sender</label>
-              <input type="email" id="sender" placeholder = "Example: d_novao@hotmail.com" name="sender" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
-          </div>
-
-          <div class="mb-4">
               <label for="recipient" class="block text-gray-600 font-semibold mb-2" >Recipient</label>
               <input type="email" id="recipient" name="recipient" placeholder = "Example: d_novao@hotmail.com" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500">
           </div>

@@ -7,14 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const form = document.getElementById("formulario");
-  const inputSender = document.querySelector("#sender");
   const inputReceiver = document.querySelector("#recipient");
   const inputSubject = document.querySelector("#subject");
   const inputMessage = document.querySelector("#message");
   const btnSubmit = document.querySelector('#formulario button[type="submit"]');
   const btnReset = document.querySelector('#formulario button[type="reset"]');
 
-  inputSender.addEventListener("blur", validation);
   inputReceiver.addEventListener("blur", validation);
   inputSubject.addEventListener("blur", validation);
   inputMessage.addEventListener("blur", validation);
