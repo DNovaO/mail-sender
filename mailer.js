@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const email = {
-    sender: '',
+    sender: 'contact.dnovao@gmail.com',
     recipient: '',
     subject: '',
     message: '',
@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function resetFormulario() {
     // reiniciar el objeto
-    email.sender = '';
     email.recipient = '';
     email.subject = '';
     email.message = '';
@@ -112,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(email);
     //es lo que permite que se envien los correos
     Email.send({
-      SecureToken : "78352995-f46b-4e22-b0c2-07f7a62f567d",
+      SecureToken : "66803fab-ed0e-429c-87ef-729adffd9dd3",
       To : email.recipient,
       From : email.sender,
       Subject : email.subject,
@@ -121,5 +120,5 @@ document.addEventListener("DOMContentLoaded", function () {
       message => alert(message)
     );
   }
-  //D0272CC3055817C7041B9002B3BE4A50A899
+  //F8A98AB6F16C7B0F0965C415789B61472B5A
 });
